@@ -14,7 +14,7 @@ def render_towers(towers):
         #TODO draw towers
         glEnd()
         
-def main_loop(towers):
+def run_gui(towers):
     init_window(800, 600)
     while True:
         render_towers(towers)
